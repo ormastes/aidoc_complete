@@ -6,20 +6,18 @@
   "engines": {
     "vscode": "^1.79.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ormastes/aidoc_complete"},
   "categories": [
     "Other"
   ],
   "activationEvents": [
     "onLanguage:markdown"
   ],
+  "publisher": "yoon-jonghyun",
   "main": "./out/extension.js",
   "contributes": {
-    "commands": [
-      {
-        "command": "doc-complete.helloWorld",
-        "title": "Hello World"
-      }
-    ],
     "configuration": {
       "title": "AI Doc Complete",
       "properties": {
